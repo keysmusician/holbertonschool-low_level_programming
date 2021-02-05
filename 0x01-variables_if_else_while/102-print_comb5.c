@@ -12,10 +12,10 @@ int main(void)
 	{
 		for (num2 = '0'; num2 <= '9'; num2++)
 		{
-			for (num3 = num2 == '9' ? num1 + 1 : num1;
+			for (num3 = (num2 == '9') ? num1 + 1 : num1;
 			     num3 <= '9'; num3++)
 			{
-				for (num4 = num2 != '9' ? num2 + 1 : '0';
+				for (num4 = (num2 == '9') ? num2 + 1 : '0';
 				      num4 <= '9'; num4++)
 				{
 					{
