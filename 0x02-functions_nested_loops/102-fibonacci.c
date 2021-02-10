@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int n = 0;
-	int m = 1;
-	unsigned int next = 0;
+	unsigned long int n = 0;
+	unsigned long int m = 1;
+	unsigned long int next = 0;
 	int i = 0;
 
 	next = n + m;
@@ -17,18 +17,15 @@ int main(void)
 
 	while (i < 49)
 	{
-		printf("%u", next);
+		printf("%lu", next);
 		printf(", ");
 		next = n + m;
 		n = m;
 		m = next;
 		i++;
 	}
-	next = n + m;
-	n = m;
-	m = next;
 
-	printf("%u", next);
+	printf("%lu", next);
 	putchar('\n');
 	return (0);
 }
