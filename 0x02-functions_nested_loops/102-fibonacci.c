@@ -8,17 +8,27 @@ int main(void)
 {
 	int n = 0;
 	int m = 1;
-	int next = 0;
-	int sum;
+	unsigned int next = 0;
+	int i = 0;
 
-	while (next < 4000000)
+	next = n + m;
+	n = m;
+	m = next;
+
+	while (i < 49)
 	{
-		sum += next % 2 == 0 ? next : 0;
+		printf("%u", next);
+		printf(", ");
 		next = n + m;
 		n = m;
 		m = next;
+		i++;
 	}
-	printf("%d", sum);
+	next = n + m;
+	n = m;
+	m = next;
+
+	printf("%u", next);
 	putchar('\n');
 	return (0);
 }
