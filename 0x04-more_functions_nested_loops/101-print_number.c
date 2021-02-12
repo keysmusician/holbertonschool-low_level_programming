@@ -8,16 +8,10 @@
 void print_number(int n)
 {
 	int digits = 1;
+	int digit = 0;
 	int power = 1;
 	int m = n;
 	int exponent = 0;
-
-/*ensure n is positive from this point on*/
-	if (n < 0)
-	{
-		_putchar('-');
-		n = -n;
-	}
 
 /*count the number of digits*/
 	while (m / 10)
@@ -25,6 +19,9 @@ void print_number(int n)
 		digits++;
 		m = m / 10;
 	}
+
+	if (n < 0)
+		_putchar('-');
 
 /*Print each digit one at a time*/
 	for (; digits > 0; digits--)
@@ -34,6 +31,12 @@ void print_number(int n)
 		{
 			power *= 10;
 		}
-		_putchar('0' + (n / power) % 10);
+
+		digit = (n / power) % 10;
+
+		if (digit < 0)
+			digit = -digit;
+
+		_putchar('0' + digit);
 	}
 }
