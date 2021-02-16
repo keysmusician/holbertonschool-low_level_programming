@@ -11,7 +11,7 @@ void puts_half(char *str)
 	char *start = str;
 	int len, i;
 
-/*find end of pointer*/
+/*find end of string*/
 	while (*end != '\0')
 	{
 		end++;
@@ -20,8 +20,17 @@ void puts_half(char *str)
 /*find length of string*/
 	len = (end - start);
 
+	if (len % 2 == 0)
+	{
+		i = len / 2;
+	}
+	else
+	{
+		i = (len - 1) / 2 + 1;
+	}
+
 /*print from half length to end of string*/
-	for (i = (len - 1) / 2; i < len; i++)
+	for (; i < len; i++)
 	{
 		_putchar(str[i]);
 	}
