@@ -5,40 +5,22 @@
  * @s : string
  * Return: void
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
-	char *start = s;
-	char *end;
-	char c;
-	int len;
+	int index = 0;
+	int length = 0;
 	char buffer = '\0';
 
-/*find end of string*/
-	while (*s != '\0')
+/*find length of string EXLUDING Null*/
+	while (s[length + 1] != '\0')
 	{
-		s++;
+		length++;
 	}
-	end = s + 1;
 
-/*compute length*/
-	len = end - start;
-
-	for (c = start; c < end; c++)
+	for (index = length; index > (length - length / 2); index--)
 	{
-		buffer = *start;
-
+		buffer = s[index];
+		s[index] = s[length - index];
+		s[length - index] = buffer;
 	}
-	_putchar('\n');
-}
-
-
-
-
-int main(void)
-{
-	char *str;
-
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	print_rev(str);
-	return (0);
 }
