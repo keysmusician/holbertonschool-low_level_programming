@@ -11,11 +11,14 @@ void rev_string(char *s)
 	int length = 0;
 	char buffer = '\0';
 
-/*find length of string EXLUDING Null*/
-	while (s[length + 1] != '\0')
+/*find length of string including Null*/
+	while (s[length] != '\0')
 	{
 		length++;
 	}
+
+/*Exclude NULL from length*/
+	length--;
 
 	for (index = length; index > (length - length / 2); index--)
 	{
