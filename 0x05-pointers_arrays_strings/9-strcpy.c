@@ -13,18 +13,15 @@ char *_strcpy(char *dest, char *src)
 	char *end = src;
 	int i, len;
 
-	while (end != '\0')
+	while (*end != '\0')
 	{
 		end++;
 	}
 
 	len = end - src;
 
-	printf("len = %d\n", len);
-
 	for (i = 0; i <= len; i++)
 	{
-		printf("Itteration: %d\n", i);
 		dest[i] = src[i];
 	}
 	return (dest);
