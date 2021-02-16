@@ -9,21 +9,21 @@ void puts_half(char *str)
 {
 	char *end = str;
 	char *start = str;
-	char *mid;
-	int len;
+	int len, i;
 
+/*find end of pointer*/
 	while (*end != '\0')
 	{
 		end++;
 	}
 
+/*find length of string*/
 	len = (end - start);
-	mid = start + len / 2;
 
-	while (mid < end)
+/*print from half length to end of string*/
+	for (i = len / 2; i < len; i++)
 	{
-		_putchar(*mid);
-		mid++;
+		_putchar(str[i]);
 	}
 
 	_putchar('\n');
