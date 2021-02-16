@@ -2,7 +2,7 @@
 
 /**
  * print_rev - prints a string in reverse followed by a newline to stdout
- * @str : string
+ * @s : string
  * Return: void
  */
 void print_rev(char *s)
@@ -22,13 +22,11 @@ void print_rev(char *s)
 
 
 
-/*
-int main(void)
-{
-	char *str;
+/* int main(void) */
+/* { */
+/*	char *str; */
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	print_rev(str);
-	return (0);
-}
-*/
+/*	str = "I do not fear computers. I fear the lack of them - Isaac Asimov"; */
+/*	print_rev(str); */
+/*	return (0); */
+/* } */

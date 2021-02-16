@@ -17,18 +17,18 @@ int _strlen(char *s)
 }
 
 /*
-#include <stdio.h>
-
-int main(void)
-{
-	char *str;
-	int length;
-
-	str = "Holberton is awesome!";
-	length = _strlen(str);
-
-	printf("%d\n", length);
-
-	return (0);
-}
-*/
+ *#include <stdio.h>
+ *
+ *int main(void)
+ *{
+ *	char *str;
+ *	int length;
+ *
+ *	str = "Holberton is awesome!";
+ *	length = _strlen(str);
+ *
+ *	printf("%d\n", length);
+ *
+ *	return (0);
+ *}
+ */
