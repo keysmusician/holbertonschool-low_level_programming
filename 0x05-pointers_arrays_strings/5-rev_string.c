@@ -18,12 +18,15 @@ void rev_string(char *s)
 	}
 
 /*Exclude NULL from length*/
-	length--;
-
-	for (index = length; index > (length - length / 2); index--)
+	if (length)
 	{
-		buffer = s[index];
-		s[index] = s[length - index];
-		s[length - index] = buffer;
+		length--;
+
+		for (index = length; index > (length - length / 2); index--)
+		{
+			buffer = s[index];
+			s[index] = s[length - index];
+			s[length - index] = buffer;
+		}
 	}
 }
