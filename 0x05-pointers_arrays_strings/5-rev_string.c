@@ -23,7 +23,7 @@ void rev_string(char *s)
 /*Exclude NULL from length*/
 		length--;
 
-		for (index = length; index >=B (length - length / 2); index--)
+		for (index = length; index >= (length - length / 2); index--)
 		{
 			buffer = s[index];
 			s[index] = s[length - index];
