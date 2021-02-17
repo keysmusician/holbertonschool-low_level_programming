@@ -23,24 +23,11 @@ void rev_string(char *s)
 /*Exclude NULL from length*/
 		length--;
 
-		for (index = length; index >= (length - length / 2); index--)
+		for (index = length; index >=B (length - length / 2); index--)
 		{
 			buffer = s[index];
 			s[index] = s[length - index];
 			s[length - index] = buffer;
 		}
 	}
-}
-
-
-#include <stdio.h>
-
-int main(void)
-{
-	char s[11] = "Holberton!";
-
-	printf("%s\n", s);
-	rev_string(s);
-	printf("%s\n", s);
-	return (0);
 }
