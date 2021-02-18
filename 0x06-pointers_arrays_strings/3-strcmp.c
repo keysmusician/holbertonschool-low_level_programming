@@ -15,9 +15,9 @@ int _strcmp(char *s1, char *s2)
 		i++;
 
 	if (s1[i] > s2[i])
-		compare = 1;
+		compare = 15;
 	else if (s1[i] < s2[i])
-		compare = -1;
+		compare = -15;
 
 	return (compare);
 }
