@@ -14,5 +14,5 @@ char *_strchr(char *s, char c)
 	while (*found && *found != c)
 		found++;
 
-	return (!found && c ? NULL : found);
+	return (!*found && c ? NULL : found);
 }
