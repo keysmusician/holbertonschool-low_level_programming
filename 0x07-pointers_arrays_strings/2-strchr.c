@@ -1,4 +1,5 @@
-#include <stdio.h>
+#define NULL 0
+
 /**
  * _strchr - Locates a character in a string
  * @s : String to search for character
@@ -10,8 +11,8 @@ char *_strchr(char *s, char c)
 {
 	char *found = s;
 
-	while (*found != '\0' && *found != c)
+	while (*found && *found != c)
 		found++;
 
-	return (found == '\0' && c ? NULL : found);
+	return (!found && c ? NULL : found);
 }
