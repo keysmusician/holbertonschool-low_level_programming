@@ -27,5 +27,5 @@ char *_strstr(char *haystack, char *needle)
 			break;
 	}
 
-	return (*needle ? found : haystack + i);
+	return (*needle ? found : haystack);
 }
