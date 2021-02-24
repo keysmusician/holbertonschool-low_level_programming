@@ -1,8 +1,8 @@
 /**
  * calculate_root - Compares n to various square numbers
- * @n : Number to find root of
- * @root : Then natural square root of n if it exits
- * Return : Root if exists, -1 if not
+ * @n: Number to find root of
+ * @root: Then natural square root of n if it exits
+ * Return: Root if exists, -1 if not
  */
 int calculate_root(int n, int root)
 {
@@ -11,7 +11,7 @@ int calculate_root(int n, int root)
 	else if (root * root == n)
 		return (root);
 
-	return help(n, root + 1);
+	return (help(n, root + 1));
 }
 
 
@@ -25,5 +25,5 @@ int _sqrt_recursion(int n)
 	if (n < 0)
 		return (-1);
 
-	return calculate_root(n, 1);
+	return (calculate_root(n, 1));
 }
