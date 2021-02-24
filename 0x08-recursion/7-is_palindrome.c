@@ -6,7 +6,7 @@
 char *get_end(char *s)
 {
 	if (*s == '\0')
-		return (s - 1);
+		return (s);
 
 	return (get_end(s + 1));
 }
@@ -25,11 +25,9 @@ int compare(char *a, char *b)
 		if (a >= b)
 			return (1);
 
-		compare(a + 1, b - 1);
+		return (compare(a + 1, b - 1));
 	}
-	else
-		return (0);
-	return (1);
+	return (0);
 }
 
 /**
@@ -44,5 +42,5 @@ int is_palindrome(char *s)
 	if (!*s)
 		return (0);
 
-	return (compare(s, end));
+	return (compare(s, end - 1));
 }
