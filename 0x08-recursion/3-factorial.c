@@ -1,5 +1,3 @@
-#include "holberton.h"
-
 /**
  * factorial - Returns the factorial
  * @n : Number
