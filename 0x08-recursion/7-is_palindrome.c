@@ -1,7 +1,7 @@
 /**
  * get_end - Finds the end of a string
  * @s: String
- * Return: Pointer to end of string
+ * Return: Pointer to char before null byte at end of string
  */
 char *get_end(char *s)
 {
@@ -20,7 +20,7 @@ char *get_end(char *s)
  */
 int compare(char *a, char *b)
 {
-	if (a)
+	if (*a)
 	{
 		if (*a == *b)
 			compare(a + 1, b - 1);
