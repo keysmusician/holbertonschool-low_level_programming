@@ -1,6 +1,6 @@
 /**
  * check_factors - Tests for factors of n
- * @is_prime: Prime candidate
+ * @prime: Prime candidate
  * @factor: Factor candidate
  * Return: 1 if is_prime is prime, 0 if is_prime is composite (not prime)
  */
@@ -23,7 +23,7 @@ int check_factors(int prime, int factor)
 int is_prime_number(int n)
 {
 	if (n == -1 || n == 1)
-		return 0;
+		return (0);
 
 	return (check_factors(n, 2));
 }
