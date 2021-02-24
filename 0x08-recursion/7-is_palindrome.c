@@ -3,14 +3,21 @@
  * @s: String
  * Return: Pointer to end of string
  */
-char* get_end(char *s)
+char *get_end(char *s)
 {
 	if (*s == '\0')
-		return(s - 1);
+		return (s - 1);
 
 	return (get_end(s + 1));
 }
 
+
+/**
+ * compare - compares chars in a string from either end
+ * @a: Beginning of string
+ * @b: End of string
+ * Return: 1 if palindrome, 0 if not
+ */
 int compare(char *a, char *b)
 {
 	if (a)
@@ -32,5 +39,5 @@ int is_palindrome(char *s)
 {
 	char *end = get_end(s);
 
-	return compare(s, end);
+	return (compare(s, end));
 }
