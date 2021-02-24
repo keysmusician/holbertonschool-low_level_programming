@@ -6,7 +6,7 @@
  */
 int check_factors(int prime, int factor)
 {
-	if (factor > prime / 2)
+	if (factor == prime)
 		return (1);
 
 	if (prime % factor == 0)
