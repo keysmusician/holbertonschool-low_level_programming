@@ -11,7 +11,7 @@ int calculate_root(int n, int root)
 	else if (root * root == n)
 		return (root);
 
-	return (help(n, root + 1));
+	return (calculate_root(n, root + 1));
 }
 
 
