@@ -20,13 +20,12 @@ char *get_end(char *s)
  */
 int compare(char *a, char *b)
 {
-	if (*a)
-	{
-		if (*a == *b)
-			compare(a + 1, b - 1);
-		else
-			return (0);
-	}
+	if (a >= b)
+		return(1);
+	if (*a == *b)
+		compare(a + 1, b - 1);
+	else
+		return (0);
 	return (1);
 }
 
