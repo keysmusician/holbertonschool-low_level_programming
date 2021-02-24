@@ -39,5 +39,8 @@ int is_palindrome(char *s)
 {
 	char *end = get_end(s);
 
+	if (!*s)
+		return (0);
+
 	return (compare(s, end));
 }
