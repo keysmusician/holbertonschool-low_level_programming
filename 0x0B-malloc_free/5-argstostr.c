@@ -55,7 +55,7 @@ char *str_concat(char *s1, char *s2)
 char *argstostr(int ac, char **av)
 {
 	int argument;
-	char *cat;
+	char *cat = NULL;
 	char *temp = NULL;
 
 	if (ac == 0 || av == NULL)
