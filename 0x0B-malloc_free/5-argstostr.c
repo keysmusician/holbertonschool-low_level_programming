@@ -72,7 +72,11 @@ char *argstostr(int ac, char **av)
 		}
 		cat = str_concat(temp, "\n");
 		if (cat == NULL)
+		{
+			if (temp != NULL)
+				free(temp);
 			return (NULL);
+		}
 		free(temp);
 		temp = cat;
 	}
