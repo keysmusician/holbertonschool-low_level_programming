@@ -64,6 +64,8 @@ char *argstostr(int ac, char **av)
 	for (argument = 0; argument < ac; argument++)
 	{
 		temp = str_concat(temp, av[argument]);
+		if (cat != NULL)
+			free(cat);
 		if (temp == NULL)
 		{
 			if (cat != NULL)
@@ -71,13 +73,9 @@ char *argstostr(int ac, char **av)
 			return (NULL);
 		}
 		cat = str_concat(temp, "\n");
-		if (cat == NULL)
-		{
-			if (temp != NULL)
-				free(temp);
-			return (NULL);
-		}
 		free(temp);
+		if (cat == NULL)
+			return (NULL);
 		temp = cat;
 	}
 
