@@ -53,7 +53,7 @@ char **strtow(char *str)
 		return (NULL);
 	for (str_i = 0; str[str_i]; str_i++)
 	{
-		if (str[str_i] != ' ')
+		if (str[str_i] != ' ' && str[str_i + 1] != '\0')
 		{
 			++word_length;
 			if (word_start < 0)
