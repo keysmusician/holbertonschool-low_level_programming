@@ -53,13 +53,13 @@ char **strtow(char *str)
 		return (NULL);
 	for (str_i = 0; str[str_i]; str_i++)
 	{
-		if (str[str_i] != ' ' && str[str_i + 1] != '\0')
+		if (str[str_i] != ' ')
 		{
 			++word_length;
 			if (word_start < 0)
 				word_start = str_i;
 		}
-		else if (word_length > 0)
+		if ((str[str_i] == ' ' || str[str_i + 1] == '\0') && word_length > 0)
 		{
 			word_list[word_list_i] = malloc(word_length + 1);
 			if (word_list[word_list_i] == NULL)
