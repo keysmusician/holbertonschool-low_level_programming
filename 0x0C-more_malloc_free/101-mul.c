@@ -30,7 +30,10 @@ unsigned int get_length_and_validate_string(char *string)
  */
 void print_int_array(int *array, unsigned int size)
 {
-	unsigned int i = array[0] == 0 ? 1 : 0;
+	unsigned int i;
+
+	while (array[i] == 0 && i < size - 1)
+		i++;
 
 	for (; i < size; i++)
 		printf("%d", array[i]);
