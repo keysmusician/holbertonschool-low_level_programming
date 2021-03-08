@@ -54,7 +54,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	char *name_p = string_copy(name);
 	char *owner_p = string_copy(owner);
 
-	if (dog_p == NULL || name_p = NULL || owner_p == NULL)
+	if (dog_p == NULL || name_p == NULL || owner_p == NULL)
 	{
 		free(dog_p);
 		free(name_p);
