@@ -35,7 +35,7 @@ char *string_copy(char *string)
 		return (NULL);
 	for (i = 0; i < length; i++)
 	{
-		*string_p = string[i];
+		string_p[i] = string[i];
 	}
 	return (string_p);
 }
