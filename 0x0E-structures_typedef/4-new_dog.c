@@ -12,11 +12,8 @@ unsigned int string_length(char *string)
 
 	if (string == NULL)
 		return (0);
-
 	while (string[i++])
-	{
 		continue;
-	}
 	return (i);
 }
 
@@ -34,9 +31,7 @@ char *string_copy(char *string)
 	if (string_p == NULL)
 		return (NULL);
 	for (i = 0; i < length; i++)
-	{
 		string_p[i] = string[i];
-	}
 	return (string_p);
 }
 
@@ -49,7 +44,6 @@ char *string_copy(char *string)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t new_dog;
 	dog_t *dog_p = malloc(sizeof(dog_t));
 	char *name_p = string_copy(name);
 	char *owner_p = string_copy(owner);
@@ -61,10 +55,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(owner_p);
 		return (NULL);
 	}
-	new_dog.name = name_p;
-	new_dog.age = age;
-	new_dog.owner = owner_p;
-	*dog_p = new_dog;
+	dog_p->name = name_p;
+	dog_p->age = age;
+	dog_p->owner = owner_p;
 
 	return (dog_p);
 }
