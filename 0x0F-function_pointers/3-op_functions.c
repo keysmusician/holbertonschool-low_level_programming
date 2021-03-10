@@ -1,4 +1,3 @@
-/* Need descriptions */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -52,10 +51,10 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - Modulos(?) two ints
- * @a: Moduland??
+ * op_mod - Modulates(?) two ints
+ * @a: Moduland(?)
  * @b: Modulus
- * Return: ???
+ * Return: Remainder(?)
  */
 int op_mod(int a, int b)
 {
