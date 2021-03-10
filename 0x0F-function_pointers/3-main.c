@@ -8,7 +8,7 @@
  * @argv: List of arguments
  * Return: Always 0.
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int (*operation)(int, int) = NULL;
 	int arg1, arg2, result;
@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 	arg1 = atoi(argv[1]);
 	arg2 = atoi(argv[3]);
 	operation = get_op_func(argv[2]);
-	if (!operation)
+	if (!operation || argv[2][1] != '\0')
 	{
 		printf("Error\n");
 			exit(99);
