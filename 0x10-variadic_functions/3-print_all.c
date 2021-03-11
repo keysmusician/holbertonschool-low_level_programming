@@ -39,8 +39,14 @@ void print_all(const char * const format, ...)
 			continue;
 		}
 		i++;
-		if (format[i] != '\0')
+		switch (format[i])
+		{
+		case 'c':
+		case 'i':
+		case 'f':
+		case 's':
 			printf(", ");
+		}
 	}
 	printf("\n");
 	va_end(arguments);
