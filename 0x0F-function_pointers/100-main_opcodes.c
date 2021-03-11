@@ -9,7 +9,7 @@
  */
 int main(int argc, char **argv)
 {
-	unsigned long int bytes, i;
+	long int bytes, i;
 
 	if (argc != 2)
 	{
