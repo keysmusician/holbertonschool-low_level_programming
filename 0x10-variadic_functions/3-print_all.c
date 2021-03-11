@@ -14,7 +14,7 @@ void print_all(const char * const format, ...)
 	unsigned int i = 0;
 	char f;
 
-	if (!format)
+	while (!format)
 		return;
 	va_start(arguments, format);
 	while (format[i])
@@ -36,7 +36,7 @@ void print_all(const char * const format, ...)
 		case 's':
 			delimit = 1;
 			string = va_arg(arguments, char *);
-			while (!string)
+			if (!string)
 			{
 				printf("(nil)");
 				break;
