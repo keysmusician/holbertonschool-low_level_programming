@@ -28,7 +28,8 @@ int main(int argc, char **argv)
 		printf("%x", ((unsigned char *)main)[i]);
 		if (i != bytes - 1)
 			printf(" ");
+		else
+			printf("\n");
 	}
-	printf("\n");
 	return (0);
 }
