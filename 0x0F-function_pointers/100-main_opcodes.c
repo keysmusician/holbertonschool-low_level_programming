@@ -9,7 +9,7 @@
  */
 int main(int argc, char **argv)
 {
-	int bytes, i;
+	unsigned long int bytes, i;
 
 	if (argc != 2)
 	{
@@ -25,7 +25,7 @@ int main(int argc, char **argv)
 
 	for (i = 0; i < bytes; i++)
 	{
-		printf("%x", ((unsigned char *)main)[i]);
+		printf("%02x", ((unsigned char *)main)[i]);
 		if (i != bytes - 1)
 			printf(" ");
 		else
