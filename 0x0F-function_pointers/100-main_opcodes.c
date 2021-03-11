@@ -31,5 +31,7 @@ int main(int argc, char **argv)
 		else
 			printf("\n");
 	}
+	if (bytes == 0)
+		printf("%02x\n", ((unsigned char *)main)[0]);
 	return (0);
 }
