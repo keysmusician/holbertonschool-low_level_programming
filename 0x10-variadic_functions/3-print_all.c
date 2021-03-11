@@ -40,7 +40,7 @@ void print_all(const char * const format, ...)
 		}
 		i++;
 		if (format[i] != '\0')
-			printf(",");
+			printf(", ");
 	}
 	printf("\n");
 	va_end(arguments);
