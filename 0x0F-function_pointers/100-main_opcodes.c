@@ -24,7 +24,11 @@ int main(int argc, char **argv)
 	}
 
 	for (i = 0; i < bytes; i++)
-		printf("%x ", ((unsigned char *)main)[i]);
+	{
+		printf("%x", ((unsigned char *)main)[i]);
+		if (i != bytes - 1)
+			printf(" ");
+	}
 	printf("\n");
 	return (0);
 }
