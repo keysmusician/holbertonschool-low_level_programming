@@ -10,7 +10,7 @@
 int main(int argc, char **argv)
 {
 	int bytes, i;
-	char *main_p;
+	/* char *main_p; */
 
 	if (argc != 2)
 	{
@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 		exit(1);
 	}
 	bytes = atoi(argv[1]);
-	main_p = main;
+	/* main_p = main; */
 	if (bytes < 0)
 	{
 		printf("Error\n");
@@ -26,7 +26,7 @@ int main(int argc, char **argv)
 	}
 
 	for (i = 0; i < bytes; i++)
-		printf("%x ", main_p[i]);
+		printf("%x ", ((char *)main)[i]);
 	printf("\n");
 	return (0);
 }
