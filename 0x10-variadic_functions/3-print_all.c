@@ -36,7 +36,7 @@ void print_all(const char * const format, ...)
 		case 's':
 			delimit = 1;
 			string = va_arg(arguments, char *);
-			if (!string)
+			while (!string)
 			{
 				printf("(nil)");
 				break;
