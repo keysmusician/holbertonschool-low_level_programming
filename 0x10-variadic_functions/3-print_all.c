@@ -11,6 +11,7 @@ void print_all(const char * const format, ...)
 	va_list arguments;
 	char *string;
 	unsigned int i = 0;
+	char f;
 
 	va_start(arguments, format);
 	while (format[i])
@@ -34,19 +35,11 @@ void print_all(const char * const format, ...)
 				break;
 			}
 			printf("%s", string);
-		default:
-			i++;
-			continue;
 		}
 		i++;
-		switch (format[i])
-		{
-		case 'c':
-		case 'i':
-		case 'f':
-		case 's':
+		f = format[i];
+		if (f == 'c' || f == 'i' || f == 'f' || f == 's')
 			printf(", ");
-		}
 	}
 	printf("\n");
 	va_end(arguments);
