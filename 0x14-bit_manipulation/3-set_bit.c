@@ -1,5 +1,3 @@
-#include "holberton.h"
-
 /**
  * set_bit - sets the value of a bit at a given index
  * @n: binary number
@@ -9,5 +7,5 @@
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	*n |= (1 << index);
-	return (1);
+	return (index > 63 ? -1 : 1);
 }
