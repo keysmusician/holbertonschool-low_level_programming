@@ -1,14 +1,13 @@
 #include "holberton.h"
 
 /**
- * get_bit - returns the value of a bit at a given index
+ * set_bit - sets the value of a bit at a given index
  * @n: binary number
  * @index: index of the desired bit
- * Return: bit value at index
+ * Return: 1 on success, -1 on error
  */
-int get_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
-	if (1 << index < n)
-		return ((n >> index) & 1);
-	return (-1);
+	*n |= (1 << index);
+	return (1);
 }
