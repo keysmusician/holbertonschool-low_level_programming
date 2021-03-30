@@ -78,7 +78,7 @@ int main(int ac, char **av)
 	error_check(close_sts, 100, file_from_sts);
 
 	close_sts = close(file_to_sts);
-	error_check(close_sts, 100, file_from_sts);
+	error_check(close_sts, 100, file_to_sts);
 
 	return (0);
 }
