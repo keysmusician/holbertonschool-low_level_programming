@@ -16,7 +16,7 @@ void error_check(int status_code, int error_code, ...)
 {
 	va_list file;
 
-	if (error_code == 97 && status_code != 3)
+	if (status_code != 3 && error_code == 97)
 	{
 		dprintf(2, "Usage: cp file_from file_to\n");
 		exit(error_code);
@@ -62,14 +62,17 @@ int main(int ac, char **av)
 	file_from_sts = open(file_from, O_RDONLY);
 	error_check(file_from_sts, 98, file_from);
 
-	read_sts = read(file_from_sts, buffer, BUFFERSIZE);
-	error_check(read_sts, 98, file_from);
-
 	file_to_sts = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, perms);
 	error_check(file_to_sts, 99, file_to);
 
-	write_sts = write(file_to_sts, buffer, read_sts);
-	error_check(write_sts, 99, file_to);
+	for (read_sts = 1; read_sts;)
+	{
+		read_sts = read(file_from_sts, buffer, BUFFERSIZE);
+		error_check(read_sts, 98, file_from);
+
+		write_sts = write(file_to_sts, buffer, read_sts);
+		error_check(write_sts, 99, file_to);
+	}
 
 	close_sts = close(file_from_sts);
 	error_check(close_sts, 100, file_from_sts);
