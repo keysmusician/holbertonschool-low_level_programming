@@ -5,6 +5,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <unistd.h>
+#define BUFFERSIZE 1024
 
 /**
  * error_check - checks for and handles failure of I/O functions
@@ -15,36 +16,30 @@ void error_check(int status_code, int error_code, ...)
 {
 	va_list file;
 
-	va_start(file, error_code);
-	switch (error_code)
+	if (error_code == 97 && status_code != 3)
 	{
-	case 97:
-		if (status_code != 3)
-			dprintf(2, "Usage: cp file_from file_to\n");
-		else
-			return;
-		break;
-	case 98:
-		if (status_code == -1)
-			dprintf(2, "Error: Can't read from file %s\n", va_arg(file, char *));
-		else
-			return;
-		break;
-	case 99:
-		if (status_code == -1)
-			dprintf(2, "Error: Can't write to %s\n", va_arg(file, char *));
-		else
-			return;
-		break;
-	case 100:
-		if (status_code == -1)
-			dprintf(2, "Error: Can't close fd %i\n", va_arg(file, int));
-		else
-			return;
-		break;
+		dprintf(2, "Usage: cp file_from file_to\n");
+		exit(error_code);
 	}
-	va_end(file);
-	exit(error_code);
+
+	if (status_code == -1)
+	{
+		va_start(file, error_code);
+		switch (error_code)
+		{
+		case 98:
+			dprintf(2, "Error: Can't read from file %s\n", va_arg(file, char *));
+			break;
+		case 99:
+			dprintf(2, "Error: Can't write to %s\n", va_arg(file, char *));
+			break;
+		case 100:
+			dprintf(2, "Error: Can't close fd %i\n", va_arg(file, int));
+			break;
+		}
+		va_end(file);
+		exit(error_code);
+	}
 }
 
 /**
@@ -56,7 +51,7 @@ void error_check(int status_code, int error_code, ...)
 int main(int ac, char **av)
 {
 	int file_from_sts, file_to_sts, read_sts, close_sts, write_sts;
-	char *file_from, *file_to, buffer[1024];
+	char *file_from, *file_to, buffer[BUFFERSIZE];
 	unsigned int perms = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 
 	error_check(ac, 97);
@@ -67,7 +62,7 @@ int main(int ac, char **av)
 	file_from_sts = open(file_from, O_RDONLY);
 	error_check(file_from_sts, 98, file_from);
 
-	read_sts = read(file_from_sts, buffer, 1024);
+	read_sts = read(file_from_sts, buffer, BUFFERSIZE);
 	error_check(read_sts, 98, file_from);
 
 	file_to_sts = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, perms);
