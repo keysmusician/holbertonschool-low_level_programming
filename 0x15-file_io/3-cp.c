@@ -3,8 +3,8 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <sys/stat.h>
-#include <sys/types.h>
 #include <unistd.h>
+
 #define BUFFERSIZE 1024
 
 /**
