@@ -18,7 +18,7 @@ void error_check(int status_code, int error_code, ...)
 
 	if (status_code != 3 && error_code == 97)
 	{
-		dprintf(2, "Usage: cp file_from file_to\n");
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(error_code);
 	}
 
@@ -28,13 +28,13 @@ void error_check(int status_code, int error_code, ...)
 		switch (error_code)
 		{
 		case 98:
-			dprintf(2, "Error: Can't read from file %s\n", va_arg(file, char *));
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", va_arg(file, char *));
 			break;
 		case 99:
-			dprintf(2, "Error: Can't write to %s\n", va_arg(file, char *));
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", va_arg(file, char *));
 			break;
 		case 100:
-			dprintf(2, "Error: Can't close fd %i\n", va_arg(file, int));
+			dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", va_arg(file, int));
 			break;
 		}
 		va_end(file);
