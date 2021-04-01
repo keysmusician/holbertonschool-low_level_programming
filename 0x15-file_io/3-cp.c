@@ -65,9 +65,8 @@ int main(int ac, char **av)
 	file_to_sts = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, perms);
 	error_check(file_to_sts, 99, file_to);
 
-	for (read_sts = 1; read_sts;)
+	while ((read_sts = read(file_from_sts, buffer, BUFFERSIZE)))
 	{
-		read_sts = read(file_from_sts, buffer, BUFFERSIZE);
 		error_check(read_sts, 98, file_from);
 
 		write_sts = write(file_to_sts, buffer, read_sts);
