@@ -16,12 +16,6 @@ void error_check(int status_code, int error_code, ...)
 {
 	va_list file;
 
-	if (status_code != 3 && error_code == 97)
-	{
-		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-		exit(error_code);
-	}
-
 	if (status_code == -1)
 	{
 		va_start(file, error_code);
@@ -50,34 +44,40 @@ void error_check(int status_code, int error_code, ...)
  */
 int main(int ac, char **av)
 {
-	int file_from_sts, file_to_sts, read_sts, close_sts, write_sts;
-	char *file_from, *file_to, *buffer[BUFFERSIZE];
+	int file_from_sts, file_to_sts, read_sts, write_sts;
+	char buffer[BUFFERSIZE];
 	unsigned int perms = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 
-	error_check(ac, 97);
-
-	file_from = av[1];
-	file_to = av[2];
-
-	file_from_sts = open(file_from, O_RDONLY);
-	error_check(file_from_sts, 98, file_from);
-
-	file_to_sts = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, perms);
-	error_check(file_to_sts, 99, file_to);
-
+	if (ac != 3)
+	{
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+		exit(97);
+	}
+	if ((file_from_sts = open(av[1], O_RDONLY)) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
+		exit(98);
+	}
+	if ((file_to_sts = open(av[2], O_CREAT | O_WRONLY | O_TRUNC, perms)) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
+		exit(99);
+	}
 	while ((read_sts = read(file_from_sts, buffer, BUFFERSIZE)))
 	{
-		error_check(read_sts, 98, file_from);
-
+		error_check(read_sts, 98, av[1]);
 		write_sts = write(file_to_sts, buffer, read_sts);
-		error_check(write_sts, 99, file_to);
+		error_check(write_sts, 99, av[2]);
 	}
-
-	close_sts = close(file_from_sts);
-	error_check(close_sts, 100, file_from_sts);
-
-	close_sts = close(file_to_sts);
-	error_check(close_sts, 100, file_to_sts);
-
+	if (close(file_from_sts) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from_sts);
+		exit(100);
+	}
+	if (close(file_to_sts) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_to_sts);
+		exit(100);
+	}
 	return (0);
 }
