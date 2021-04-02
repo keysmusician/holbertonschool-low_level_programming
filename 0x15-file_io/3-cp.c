@@ -12,26 +12,19 @@
  * @status_code: I/O function return value;
  * @error_code: code used to determine which error to print
  */
-void error_check(int status_code, int error_code, ...)
+void error_check(int status_code, int error_code, char *s)
 {
-	va_list file;
-
 	if (status_code == -1)
 	{
-		va_start(file, error_code);
 		switch (error_code)
 		{
 		case 98:
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", va_arg(file, char *));
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", s);
 			break;
 		case 99:
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", va_arg(file, char *));
-			break;
-		case 100:
-			dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", va_arg(file, int));
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", s);
 			break;
 		}
-		va_end(file);
 		exit(error_code);
 	}
 }
