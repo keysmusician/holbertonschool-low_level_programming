@@ -51,7 +51,7 @@ void error_check(int status_code, int error_code, ...)
 int main(int ac, char **av)
 {
 	int file_from_sts, file_to_sts, read_sts, close_sts, write_sts;
-	char *file_from, *file_to, buffer[BUFFERSIZE];
+	char *file_from, *file_to, *buffer[BUFFERSIZE];
 	unsigned int perms = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 
 	error_check(ac, 97);
