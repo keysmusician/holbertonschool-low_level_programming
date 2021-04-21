@@ -16,6 +16,7 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 These **Low-level Programming & Algorithms** projects exhibit my understanding of **low-level programming**, simple **algorithms**, and **data structures**. These concepts were practiced using the **C programming language**. Consequently, I also became familiar with the language. Many of these projects are simplified recreations of standard library functions.
 
 ## Projects
+### First Trimester:
 1. [0x00](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x00-hello_world) - Hello world!
 2. [0x01](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x01-variables_if_else_while) - Variables, if else and loops
 3. [0x02](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x02-functions_nested_loops) - Functions and nested loops
@@ -45,7 +46,7 @@ Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
             _   _       _   _   _       _   _       _   _   _      
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
-    /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
+     /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /
  /___/___/___/___/___/___/___/___/___/___/___/___/___/___/ /
 |___|___|___|___|___|___|___|___|___|___|___|___|___|___|/
