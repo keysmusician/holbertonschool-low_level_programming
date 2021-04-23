@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-This project introduced me to the **C programming language**, and the **C compilation process**.
+This project introduced me to the **C programming language**, and the **C compilation process**. I learend about the **entry point** and how to write simple **C programs**.
 
 ## Files
 * `0-preprocessor`
