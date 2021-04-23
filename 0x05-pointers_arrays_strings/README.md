@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-In this project, I learned about **pointers**, **arrays** and **strings**. I became familiar with concepts such as **pointer arithmetic**, **memory addressing and dereferencing**, data type sizes, **NULL pointers** and the **null terminator**. I wrote C programs which perform read-only operations on strings such as printing characters in various sequnces. 
+In this project, I learned about **pointers**, **arrays** and **strings**. I became familiar with concepts such as **pointer arithmetic**, **memory addressing and dereferencing**, data type sizes, **NULL pointers** and the **null terminator**. I wrote C functions which perform read-only operations on strings such as printing characters in various sequnces. 
 
 ## Files
 * `holberton.h`
