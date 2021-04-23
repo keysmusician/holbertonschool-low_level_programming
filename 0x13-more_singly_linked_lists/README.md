@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-Continuing where [0x012](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x12-singly_linked_lists) left off, I wrote more functions which manipulate **singly linked lists**.
+Continuing where [0x012](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x12-singly_linked_lists) left off, I wrote more functions which manipulate **singly linked lists**, this time with nodes that contain `int` data.
 
 ## Files
 * `lists.h`
