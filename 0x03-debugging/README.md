@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-In this project, I practice debugging techniques.
+In this project, I practiced debugging techniques.
 
 ## Files
 * `holberton.h`
