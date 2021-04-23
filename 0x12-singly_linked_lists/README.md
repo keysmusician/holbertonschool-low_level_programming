@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-In this project, I learned how to create **singly linked lists** in C.
+In this project, I learned how to create **singly linked lists** and wrote functions which operate on them.
 
 ## Files
 * `lists.h`
