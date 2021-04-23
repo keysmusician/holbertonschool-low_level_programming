@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-In this project I created a **static library**.
+In this project I created my own **static library** from functions written in previous projects.
 
 ## Files
 * `create_static_lib.sh`
