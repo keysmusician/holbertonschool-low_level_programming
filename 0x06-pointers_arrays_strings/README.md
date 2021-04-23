@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-This project is a continuation of [0x05](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x05-pointers_arrays_strings). It primarily contains C programs which permorn various string transformations and operations.
+This project is a continuation of [0x05](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x05-pointers_arrays_strings). It primarily contains C functions which permorn various string transformations and operations.
 
 ## Files
 * `holberton.h`
