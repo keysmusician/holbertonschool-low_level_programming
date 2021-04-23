@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-For this project, I learned about **function prototypes** and **header files**, and I use **nested loops** to print various sequences.
+For this project, I learned about **C functions**, **function prototypes** and **header files**, and I use **nested loops** to print various sequences.
 
 ## Files
 * `0-positive_or_negative.c`
