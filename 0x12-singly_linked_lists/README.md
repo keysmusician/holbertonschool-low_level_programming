@@ -12,7 +12,7 @@
 * [Author](#author)
 
 ## About
-In this project, I learned how to create **singly linked lists** and wrote functions which operate on them.
+In this project, I learned how to create **singly linked lists** and wrote functions which operate on them. The node structure used contains string data.
 
 ## Files
 * `lists.h`
