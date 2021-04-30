@@ -16,30 +16,33 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 These **Low-level Programming & Algorithms** projects exhibit my understanding of **low-level programming**, simple **algorithms**, and **data structures**. These concepts were practiced using the **C programming language**. Consequently, I also became familiar with the language. Many of these projects are simplified recreations of standard library functions.
 
 ## Projects
-### First Trimester:
-1. [0x00](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x00-hello_world) - Hello world!
-2. [0x01](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x01-variables_if_else_while) - Variables, if else and loops
-3. [0x02](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x02-functions_nested_loops) - Functions and nested loops
-4. [0x03](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x03-debugging) - Debugging
-5. [0x04](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x04-more_functions_nested_loops) - More functions and nested loops
-6. [0x05](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x05-pointers_arrays_strings) - Pointers, arrays and strings
-7. [0x06](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x06-pointers_arrays_strings) - More pointers, arrays and strings
-8. [0x07](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x07-pointers_arrays_strings) - Even more pointers, arrays and strings
-9. [0x08](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x08-recursion) - Recursion
-10. [0x09](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x09-static_libraries) - Static libraries
-11. [0x0A](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0A-argc_argv) - Argc and argv
-12. [0x0B](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0B-malloc_free) - Malloc and free
-13. [0x0C](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0C-more_malloc_free) - More malloc and free
-14. [0x0D](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0D-preprocessor) - Preprocessor
-15. [0x0E](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0E-structures_typedef) - Structures and typedef
-16. [0x0F](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0F-function_pointers) - Function pointers
-17. [0x10](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x10-variadic_functions) - Variadic functions
-18. [0x11](https://github.com/nelsfichera/printf) - Printf
-19. [0x12](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x12-singly_linked_lists) - Singly linked lists
-20. [0x13](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x13-more_singly_linked_lists) - More singly linked lists
-21. [0x14](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x14-bit_manipulation) - Bit manipulation
-22. [0x15](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x15-file_io) - File IO
-23. [0x16](https://github.com/krytech/simple_shell) - Simple Shell
+### Trimester 1:
+1. [0x00. Hello world!](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x00-hello_world)
+2. [0x01. Variables, if else and loops](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x01-variables_if_else_while)
+3. [0x02. Functions and nested loops](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x02-functions_nested_loops)
+4. [0x03. Debugging](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x03-debugging)
+5. [0x04. More functions and nested loops](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x04-more_functions_nested_loops)
+6. [0x05. Pointers, arrays and strings](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x05-pointers_arrays_strings)
+7. [0x06. More pointers, arrays and strings](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x06-pointers_arrays_strings)
+8. [0x07. Even more pointers, arrays and strings](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x07-pointers_arrays_strings)
+9. [0x08. Recursion](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x08-recursion)
+10. [0x09. Static libraries](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x09-static_libraries)
+11. [0x0A. Argc and argv](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0A-argc_argv)
+12. [0x0B. Malloc and free](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0B-malloc_free)
+13. [0x0C. More malloc and free](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0C-more_malloc_free)
+14. [0x0D. Preprocessor](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0D-preprocessor)
+15. [0x0E. Structures and typedef](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0E-structures_typedef)
+16. [0x0F. Function pointers](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0F-function_pointers)
+17. [0x10. Variadic functions](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x10-variadic_functions)
+18. [0x11. Printf](https://github.com/nelsfichera/printf)
+19. [0x12. Singly linked lists](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x12-singly_linked_lists)
+20. [0x13. More singly linked lists](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x13-more_singly_linked_lists)
+21. [0x14. Bit manipulation](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x14-bit_manipulation)
+22. [0x15. File IO](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x15-file_io)
+23. [0x16. Simple Shell](https://github.com/krytech/simple_shell)
+
+### Trimester 2:
+24. [0x17. C - Doubly linked lists](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x17-doubly_linked_lists)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
