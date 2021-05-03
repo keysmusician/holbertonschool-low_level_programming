@@ -10,7 +10,7 @@
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *node, *new, *tail;
+	dlistint_t *node, *new, *tail = NULL;
 
 	if (!h)
 		return (NULL);
@@ -39,7 +39,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 			node->prev->next = new;
 		node->prev = new;
 	}
-	else if (!tail->next)
+	else if (tail && !tail->next)
 	{
 		tail->next = new;
 		new->prev = tail;
