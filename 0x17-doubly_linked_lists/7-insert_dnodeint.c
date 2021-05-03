@@ -2,7 +2,7 @@
 
 /**
  * insert_dnodeint_at_index - inserts a node at an index of a
- * doubly linked list
+ *  doubly linked list
  * @h: head node of doubly linked list
  * @idx: desired index to insert new node
  * @n: new node data
@@ -21,7 +21,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		tail = node;
 	}
 
-	if (idx > 0)
+	if (!node)
 		return (NULL);
 
 	new = malloc(sizeof(dlistint_t));
