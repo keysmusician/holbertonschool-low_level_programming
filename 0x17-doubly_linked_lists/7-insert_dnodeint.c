@@ -2,7 +2,7 @@
 
 /**
  * insert_dnodeint_at_index - inserts a node at an index of a
- *  doubly linked list
+ * doubly linked list
  * @h: head node of doubly linked list
  * @idx: desired index to insert new node
  * @n: new node data
