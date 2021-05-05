@@ -43,6 +43,7 @@ These **Low-level Programming & Algorithms** projects exhibit my understanding o
 
 ### Trimester 2:
 24. [0x17. C - Doubly linked lists](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x17-doubly_linked_lists)
+25. [0x18. C - Dynamic libraries](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x18-dynamic_libraries)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
