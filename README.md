@@ -40,10 +40,10 @@ These **Low-level Programming & Algorithms** projects exhibit my understanding o
 21. [0x14. Bit manipulation](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x14-bit_manipulation)
 22. [0x15. File IO](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x15-file_io)
 23. [0x16. Simple Shell](https://github.com/krytech/simple_shell)
-24. [0x18. C - Dynamic libraries](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x18-dynamic_libraries)
 
 ### Trimester 2:
 24. [0x17. C - Doubly linked lists](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x17-doubly_linked_lists)
+25. [0x18. C - Dynamic libraries](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x18-dynamic_libraries)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
