@@ -24,6 +24,7 @@ In this project, I learned about **doubly linked lists** and wrote **C functions
 * `6-sum_dlistint.c`
 * `7-insert_dnodeint.c`
 * `8-delete_dnodeint.c`
+* `102-result.c`
 * `lists.h`
 
 ## Author
