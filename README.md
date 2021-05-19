@@ -13,7 +13,7 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 * [Author](#author)
 
 ## About
-These **Low-level Programming & Algorithms** projects exhibit my understanding of **low-level programming**, simple **algorithms**, and **data structures**. These concepts were practiced using the **C programming language**. Consequently, I also became familiar with the language. Many of these projects are simplified recreations of standard library functions.
+These **Low-level Programming & Algorithms** projects exhibit my understanding of **low-level programming**, simple **algorithms**, and **data structures**. These concepts were practiced using the **C programming language**. Consequently, I became familiar with the language. Many of these projects are simplified recreations of standard library functions.
 
 ## Projects
 ### Trimester 1:
