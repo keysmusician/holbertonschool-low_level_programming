@@ -16,6 +16,7 @@ In this project, I learned how to create and use **dynamic/shared libraries**.
 
 ## Files
 * `1-create_dynamic_lib.sh`
+* `100-operations.so`
 * `holberton.h`
 * `libholberton.so`
 
