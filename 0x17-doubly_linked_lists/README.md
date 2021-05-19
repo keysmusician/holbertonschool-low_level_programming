@@ -30,7 +30,7 @@ In this project, I learned about **doubly linked lists** and wrote **C functions
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _
+            _   _       _   _   _       _   _       _   _   _      
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /
