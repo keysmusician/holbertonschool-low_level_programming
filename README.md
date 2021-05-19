@@ -13,7 +13,7 @@ Assignments in [Holberton School's](https://www.holbertonschool.com/) Foundation
 * [Author](#author)
 
 ## About
-These **Low-level Programming & Algorithms** projects exhibit my understanding of **low-level programming**, simple **algorithms**, and **data structures**. These concepts were practiced using the **C programming language**. Consequently, I also became familiar with the language. Many of these projects are simplified recreations of standard library functions.
+These **Low-level Programming & Algorithms** projects exhibit my understanding of **low-level programming**, simple **algorithms**, and **data structures**. These concepts were practiced using the **C programming language**. Consequently, I became familiar with the language. Many of these projects are simplified recreations of standard library functions.
 
 ## Projects
 ### Trimester 1:
@@ -44,6 +44,7 @@ These **Low-level Programming & Algorithms** projects exhibit my understanding o
 ### Trimester 2:
 24. [0x17. C - Doubly linked lists](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x17-doubly_linked_lists)
 25. [0x18. C - Dynamic libraries](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x18-dynamic_libraries)
+26. [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/keysmusician/monty)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)

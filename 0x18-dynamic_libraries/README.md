@@ -16,13 +16,14 @@ In this project, I learned how to create and use **dynamic/shared libraries**.
 
 ## Files
 * `1-create_dynamic_lib.sh`
+* `100-operations.so`
 * `holberton.h`
 * `libholberton.so`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _
+            _   _       _   _   _       _   _       _   _   _      
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /
