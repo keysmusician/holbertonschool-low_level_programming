@@ -48,7 +48,7 @@ hash_node_t *new_hash_node(const char *key, const char *value)
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
-	hash_node_t *node, *new;
+	hash_node_t *new;
 
 	if (!ht || !(ht->array) || !key || !key[0] || !value)
 		return (0);
@@ -58,11 +58,10 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 
 	index = key_index((unsigned char *)key, ht->size);
-	node = ht->array[index];
 
-	if (node)
-		new->next = node;
-	node = new;
+	if (ht->array[index])
+		new->next = ht->array[index];
+	ht->array[index] = new;
 
 	return (1);
 }
