@@ -1,5 +1,4 @@
 #include "hash_tables.h"
-#include <string.h>
 
 /**
  * new_hash_node - create a new hash node for a hash table
