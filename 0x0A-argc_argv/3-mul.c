@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - Prints all arguments it receives
+ * main - Multiplies two numbers
  * @argc: Number of input arguments (minimum 1)
  * @argv: Array of string arguments
- * Return: 0 (success) status code
+ * Return: 1 if two command line arguments are not provided,
+ * otherwise 0 (success)
  */
 int main(int argc, char *argv[])
 {
