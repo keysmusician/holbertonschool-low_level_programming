@@ -15,16 +15,17 @@
 In this project, I learned about **file descriptors** and I/O **system calls**.
 
 ## Files
-* `holberton.h`
 * `0-read_textfile.c`
 * `1-create_file.c`
 * `2-append_text_to_file.c`
 * `3-cp.c`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

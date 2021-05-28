@@ -15,17 +15,18 @@
 In this project, I learned what **variadic functions** are and how to write them using `va_start()`, `va_arg()` and `va_end()`. I also learned a bit of **assembly** just for fun. That part didn't really have anything to do with variadic functions.
 
 ## Files
-* `variadic_functions.h`
 * `0-sum_them_all.c`
 * `1-print_numbers.c`
 * `2-print_strings.c`
 * `3-print_all.c`
 * `100-hello_holberton.asm`
+* `README.md`
+* `variadic_functions.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

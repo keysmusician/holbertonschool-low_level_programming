@@ -15,7 +15,6 @@
 In this project, I learned about the ugliest part of C's syntax: **function pointers**. My eyes are still recovering.
 
 ## Files
-* `function_pointers.h`
 * `0-print_name.c`
 * `1-array_iterator.c`
 * `2-int_index.c`
@@ -24,11 +23,13 @@ In this project, I learned about the ugliest part of C's syntax: **function poin
 * `3-main.c`
 * `3-op_functions.c`
 * `100-main_opcodes.c`
+* `README.md`
+* `function_pointers.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

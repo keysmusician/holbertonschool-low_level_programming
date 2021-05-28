@@ -15,7 +15,6 @@
 In this project, I learned how to create **singly linked lists** and wrote functions which operate on them. The node structure used contains string data.
 
 ## Files
-* `lists.h`
 * `0-print_list.c`
 * `1-list_len.c`
 * `2-add_node.c`
@@ -23,11 +22,13 @@ In this project, I learned how to create **singly linked lists** and wrote funct
 * `4-free_list.c`
 * `100-first.c`
 * `101-hello_holberton.asm`
+* `README.md`
+* `lists.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

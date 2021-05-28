@@ -12,10 +12,9 @@
 * [Author](#author)
 
 ## About
-In this project, I learned about **pointers**, **arrays** and **strings**. I became familiar with concepts such as **pointer arithmetic**, **memory addressing and dereferencing**, data type sizes, **NULL pointers** and the **null terminator**. I wrote C functions which perform read-only operations on strings such as printing characters in various sequnces. 
+In this project, I learned about **pointers**, **arrays** and **strings**. I became familiar with concepts such as **pointer arithmetic**, **memory addressing and dereferencing**, data type sizes, **NULL pointers** and the **null terminator**. I wrote C functions which perform read-only operations on strings such as printing characters in various sequnces.
 
 ## Files
-* `holberton.h`
 * `0-reset_to_98.c`
 * `1-swap.c`
 * `2-strlen.c`
@@ -26,11 +25,13 @@ In this project, I learned about **pointers**, **arrays** and **strings**. I bec
 * `7-puts_half.c`
 * `8-print_array.c`
 * `9-strcpy.c`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

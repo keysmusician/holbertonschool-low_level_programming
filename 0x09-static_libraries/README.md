@@ -15,6 +15,7 @@
 In this project I created my own **static library** from functions written in previous projects.
 
 ## Files
+* `README.md`
 * `create_static_lib.sh`
 * `holberton.h`
 * `libholberton.a`
@@ -22,7 +23,7 @@ In this project I created my own **static library** from functions written in pr
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

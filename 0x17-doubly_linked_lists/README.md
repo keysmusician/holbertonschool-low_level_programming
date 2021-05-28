@@ -25,12 +25,13 @@ In this project, I learned about **doubly linked lists** and wrote **C functions
 * `7-insert_dnodeint.c`
 * `8-delete_dnodeint.c`
 * `102-result.c`
+* `README.md`
 * `lists.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

@@ -15,7 +15,6 @@
 I learned about **dynamic memory allocation** via `malloc()` and `free()` in this project. I also began to familiarize myself with `Valgrind`. We're good friends now.
 
 ## Files
-* `holberton.h`
 * `0-create_array.c`
 * `1-strdup.c`
 * `2-str_concat.c`
@@ -23,11 +22,13 @@ I learned about **dynamic memory allocation** via `malloc()` and `free()` in thi
 * `4-free_grid.c`
 * `5-argstostr.c`
 * `100-strtow.c`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

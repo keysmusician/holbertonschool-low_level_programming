@@ -15,7 +15,6 @@
 This project was about **bit manipulation** with the **bitwise operators**. I learned about **endianness**, too.
 
 ## Files
-* `holberton.h`
 * `0-binary_to_uint.c`
 * `1-print_binary.c`
 * `2-get_bit.c`
@@ -24,11 +23,13 @@ This project was about **bit manipulation** with the **bitwise operators**. I le
 * `5-flip_bits.c`
 * `100-get_endianness.c`
 * `101-password`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

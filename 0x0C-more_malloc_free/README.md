@@ -15,17 +15,18 @@
 This project builds upon [0x0B](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x0B-malloc_free). I write more functions which utilize **dynamic memory allocation** including an implementation of `calloc()` and `realloc()`.
 
 ## Files
-* `holberton.h`
 * `0-malloc_checked.c`
 * `1-string_nconcat.c`
 * `2-calloc.c`
 * `3-array_range.c`
 * `101-mul.c`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

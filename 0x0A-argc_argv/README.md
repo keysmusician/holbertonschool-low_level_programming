@@ -17,18 +17,19 @@ In this project, I learned how to pass **command line arguments** into a C progr
 P.S. Apparently, I was also supposed to learn about `__attribute__((unused))` but somehow I completely missed that part. Whoops.
 
 ## Files
-* `holberton.h`
 * `0-whatsmyname.c`
 * `1-args.c`
 * `2-args.c`
 * `3-mul.c`
 * `4-add.c`
 * `100-change.c`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

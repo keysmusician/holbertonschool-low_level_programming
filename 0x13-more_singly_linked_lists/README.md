@@ -15,7 +15,6 @@
 Continuing where [0x012](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x12-singly_linked_lists) left off, I wrote more functions which manipulate **singly linked lists**, this time with nodes that contain `int` data.
 
 ## Files
-* `lists.h`
 * `0-print_listint.c`
 * `1-listint_len.c`
 * `2-add_nodeint.c`
@@ -28,11 +27,13 @@ Continuing where [0x012](https://github.com/keysmusician/holbertonschool-low_lev
 * `9-insert_nodeint.c`
 * `10-delete_nodeint.c`
 * `100-reverse_listint.c`
+* `README.md`
+* `lists.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

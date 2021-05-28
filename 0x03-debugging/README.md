@@ -15,17 +15,18 @@
 In this project, I practiced debugging techniques.
 
 ## Files
-* `holberton.h`
 * `0-main.c`
 * `1-main.c`
 * `2-largest_number.c`
 * `3-convert_day.c`
 * `3-print_remaining_days.c`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

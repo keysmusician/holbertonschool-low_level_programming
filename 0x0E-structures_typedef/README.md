@@ -15,16 +15,17 @@
 I learned about **structures** and **typedefs** in this project.
 
 ## Files
-* `dog.h`
 * `1-init_dog.c`
 * `2-print_dog.c`
 * `4-new_dog.c`
 * `5-free_dog.c`
+* `README.md`
+* `dog.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

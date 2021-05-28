@@ -25,11 +25,12 @@ To complete this project, I leared about **ASCII** and C syntax for **variable d
 * `7-print_tebahpla.c`
 * `8-print_base16.c`
 * `9-print_comb.c`
+* `README.md`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /
@@ -37,4 +38,3 @@ Justin Masayda [@keysmusician](https://github.com/keysmusician)
 |___|___|___|___|___|___|___|___|___|___|___|___|___|___|/
 </pre>
 <p><span style="font-family: 'Lucida Console'; line-height: 14px; font-size: 14px; display: inline-block;">&nbsp;</span></p>
-

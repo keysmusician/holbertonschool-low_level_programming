@@ -15,7 +15,6 @@
 [In this project, I leared about **recursion**.](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x08-recursion)
 
 ## Files
-* `holberton.h`
 * `0-puts_recursion.c`
 * `1-print_rev_recursion.c`
 * `2-strlen_recursion.c`
@@ -24,11 +23,13 @@
 * `5-sqrt_recursion.c`
 * `6-is_prime_number.c`
 * `7-is_palindrome.c`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

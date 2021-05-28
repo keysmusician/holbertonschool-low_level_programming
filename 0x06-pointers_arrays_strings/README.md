@@ -15,7 +15,6 @@
 This project is a continuation of [0x05](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x05-pointers_arrays_strings). It primarily contains C functions which permorn various string transformations and operations.
 
 ## Files
-* `holberton.h`
 * `0-strcat.c`
 * `1-strncat.c`
 * `2-strncpy.c`
@@ -26,11 +25,13 @@ This project is a continuation of [0x05](https://github.com/keysmusician/holbert
 * `7-leet.c`
 * `8-rot13.c`
 * `100-print_number.c`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

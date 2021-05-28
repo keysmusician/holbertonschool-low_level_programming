@@ -15,7 +15,6 @@
 This project builds upon concepts from [0x02](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x02-functions_nested_loops), in particular, writing **nested loops**.
 
 ## Files
-* `holberton.h`
 * `0-isupper.c`
 * `1-isdigit.c`
 * `2-mul.c`
@@ -28,11 +27,13 @@ This project builds upon concepts from [0x02](https://github.com/keysmusician/ho
 * `9-fizz_buzz.c`
 * `10-print_triangle.c`
 * `101-print_number.c`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /

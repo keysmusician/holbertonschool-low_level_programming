@@ -15,7 +15,6 @@
 This project taught me about **pointers to pointers**, **multidimensional arrays**.
 
 ## Files
-* `holberton.h`
 * `0-memset.c`
 * `1-memcpy.c`
 * `2-strchr.c`
@@ -26,11 +25,13 @@ This project taught me about **pointers to pointers**, **multidimensional arrays
 * `8-print_diagsums.c`
 * `9-set_string.c`
 * `101-crackme_password`
+* `README.md`
+* `holberton.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
 <pre align="center">
-            _   _       _   _   _       _   _       _   _   _      
+            _   _       _   _   _       _   _       _   _   _
      ___//|_//|_____//|_//|_//|_____//|_//|_____//|_//|_//|___
      /  /// ///  /  /// /// ///  /  /// ///  /  /// /// ///  / |
    /  ||/ ||/  /  ||/ ||/ ||/  /  ||/ ||/  /  ||/ ||/ ||/  / /
