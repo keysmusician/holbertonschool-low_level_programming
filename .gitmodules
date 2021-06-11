@@ -7,3 +7,6 @@
 [submodule "0x16-simple_shell"]
 	path = 0x16-simple_shell
 	url = https://github.com/krytech/simple_shell
+[submodule "sorting_algorithms"]
+	path = 0x1B-sorting_algorithms
+	url = https://github.com/keysmusician/sorting_algorithms.git
