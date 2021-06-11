@@ -46,6 +46,7 @@ These **Low-level Programming & Algorithms** projects exhibit my understanding o
 25. [0x18. C - Dynamic libraries](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x18-dynamic_libraries)
 26. [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/keysmusician/monty)
 27. [0x1A. C - Hash tables](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x1A-hash_tables)
+28. [0x1B. C - Sorting algorithms & Big O](https://github.com/keysmusician/sorting_algorithms)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
