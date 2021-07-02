@@ -47,6 +47,7 @@ These **Low-level Programming & Algorithms** projects exhibit my understanding o
 26. [0x19. C - Stacks, Queues - LIFO, FIFO](https://github.com/keysmusician/monty)
 27. [0x1A. C - Hash tables](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x1A-hash_tables)
 28. [0x1B. C - Sorting algorithms & Big O](https://github.com/keysmusician/sorting_algorithms)
+29. [0x1C. C - Makefiles](https://github.com/keysmusician/holbertonschool-low_level_programming/tree/main/0x1C-makefiles)
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
