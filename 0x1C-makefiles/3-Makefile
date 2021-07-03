@@ -1,7 +1,7 @@
 CC = gcc
 NAME = holberton
 OBJ = $(SRC:.c=.o)
-RM = rm
+RM = rm -f
 SRC = main.c holberton.c
 
 %.o: %.c
@@ -14,9 +14,9 @@ re:
 	$(CC) -c $(SRC)
 
 clean:
-	$(RM) -f $(NAME) $(wildcard *~)
+	$(RM) $(NAME) $(wildcard *~)
 
 oclean:
-	$(RM) -f $(OBJ)
+	$(RM) $(OBJ)
 
 fclean: clean oclean
