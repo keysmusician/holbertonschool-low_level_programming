@@ -1,13 +1,10 @@
 CC = gcc
 NAME = holberton
-OBJ = $(wildcard *.o)
+OBJ = $(SRC:.c=.o)
 SRC = main.c holberton.c
+
+%.o: %.c
+	$(CC) -c -o $@ $<
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
-
-main.o:
-	gcc    -c -o main.o main.c
-
-holberton.o:
-	gcc    -c -o holberton.o holberton.c
