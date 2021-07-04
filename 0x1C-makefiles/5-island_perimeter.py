@@ -5,9 +5,9 @@
 def island_perimeter(grid):
     """Return the perimeter of the island described in "grid"."""
     edge_count = 0
-    for r, row in enumerate(matrix):
+    for r, row in enumerate(grid):
         for i, cell in enumerate(row):
-            cell_above = matrix[r - 1][i]
+            cell_above = grid[r - 1][i]
             if cell_above - cell is not 0:
                 edge_count += 1
             cell_left = row[i - 1]
