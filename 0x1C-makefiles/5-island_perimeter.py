@@ -4,9 +4,13 @@
 
 def island_perimeter(grid):
     """Return the perimeter of the island described in "grid"."""
-    perimeter = 0
-    for row in grid:
-        for cell in row:
-            if cell:
-                perimeter += 2
-    return perimeter + 2
+    edge_count = 0
+    for r, row in enumerate(matrix):
+        for i, cell in enumerate(row):
+            cell_above = matrix[r - 1][i]
+            if cell_above - cell is not 0:
+                edge_count += 1
+            cell_left = row[i - 1]
+            if cell_left - cell is not 0:
+                edge_count += 1
+    return edge_count
