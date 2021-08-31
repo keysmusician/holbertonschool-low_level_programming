@@ -15,7 +15,17 @@
 In this project, I learned about **search algorithms.**
 
 ## Files
-
+* `0-linear.c`
+* `0-main.c`
+* `1-binary.c`
+* `1-main.c`
+* `2-O`
+* `3-O`
+* `4-O`
+* `5-O`
+* `6-O`
+* `README.md`
+* `search_algos.h`
 
 ## Author
 Justin Masayda [@keysmusician](https://github.com/keysmusician)
