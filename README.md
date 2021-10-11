@@ -5,7 +5,7 @@
 </p>
 
 # Low-Level Programming & Algorithms
-Low-level projects in [Holberton School's](https://www.holbertonschool.com/) Foundations curriculum.
+Low-level programming projects in [Holberton School's](https://www.holbertonschool.com/) Foundations curriculum.
 
 ## Table of Contents
 * [About](#about)
